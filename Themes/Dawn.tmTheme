@@ -16,17 +16,23 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#F9F9F9</string>
+				<string>#FFFFFF</string>
 				<key>caret</key>
 				<string>#000000</string>
 				<key>foreground</key>
 				<string>#080808</string>
 				<key>invisibles</key>
-				<string>#4B4B7E80</string>
+				<string>#CCCCCCDD</string>
 				<key>lineHighlight</key>
 				<string>#2463B41F</string>
 				<key>selection</key>
 				<string>#275FFF4D</string>
+				<key>guide</key>
+				<string>#EEEEEE</string>
+				<key>activeGuide</key>
+				<string>#AAAAAA</string>
+				<key>stackGuide</key>
+				<string>#EEEEEE</string>
 			</dict>
 		</dict>
 		<dict>
@@ -180,7 +186,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#6F8BBA26</string>
+				<string>#FFFFFF</string>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
@@ -256,11 +262,13 @@
 			<key>name</key>
 			<string>Embedded Source</string>
 			<key>scope</key>
-			<string>text source, meta.embedded</string>
+			<string>text source</string>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#6F8BBA26</string>
+				<string>#FFFFFF</string>
+				<key>fontStyle</key>
+				<string>bold</string>
 			</dict>
 		</dict>
 		<dict>
@@ -432,8 +440,169 @@
 				<string>#19356D</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>footnode</string>
+			<key>scope</key>
+			<string>meta.footnote.latex</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#FFFFFF</string>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#3C8891</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Bracket Tag</string>
+			<key>scope</key>
+			<string>bracket.tag</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#BF4F2455</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Bracket Curly</string>
+			<key>scope</key>
+			<string>bracket.curly</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#BF4F2455</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Bracket Round</string>
+			<key>scope</key>
+			<string>bracket.round</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#BF4F2455</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Bracket Square</string>
+			<key>scope</key>
+			<string>bracket.square</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#BF4F2455</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Bracket Angle</string>
+			<key>scope</key>
+			<string>bracket.angle</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#BF4F2455</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Bracket Quote</string>
+			<key>scope</key>
+			<string>bracket.quote</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#BF4F2455</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>diff.header</string>
+			<key>scope</key>
+			<string>meta.diff, meta.diff.header</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#0000BB10</string>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#0000BB</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>diff.deleted</string>
+			<key>scope</key>
+			<string>markup.deleted</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#DD000003</string>
+				<key>foreground</key>
+				<string>#DD0000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>diff.changed</string>
+			<key>scope</key>
+			<string>markup.changed</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#66666603</string>
+				<key>foreground</key>
+				<string>#666666</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>diff.inserted</string>
+			<key>scope</key>
+			<string>markup.inserted</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#00770004</string>
+				<key>foreground</key>
+				<string>#007700</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Invalid - Illegal</string>
+			<key>scope</key>
+			<string>invalid.illegal</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#F93232</string>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#F9F2CE</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Invalid - trailing-spaces-highlight</string>
+			<key>scope</key>
+			<string>invalid.trailing-spaces-highlight</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#66666613</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
-	<string>E7E82498-F9EA-49A6-A0D8-12327EA46B01</string>
+	<string>29039C48-DA95-4B16-96CB-57F884C3A7A5</string>
 </dict>
 </plist>
